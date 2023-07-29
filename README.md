@@ -1,4 +1,4 @@
-# Where-are-you-hurt
+# Where are You Hurt?
 
 A prototype tool for the healthcare industry, looking to make the job of nurses and other overworked groups easier.
 
