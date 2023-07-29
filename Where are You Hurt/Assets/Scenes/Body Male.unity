@@ -150,7 +150,7 @@ RectTransform:
   m_GameObject: {fileID: 68529134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.95, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 372498083}
@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 241, y: 94}
+  m_AnchoredPosition: {x: 241, y: 90}
   m_SizeDelta: {x: 503.4684, y: 1263.8904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &68529136
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 25682e4a51abf9b40bd8b41bed1b713f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 47e2e12377f7a874094add487055c8e0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -284,7 +284,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: FrontLeftArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -417,7 +417,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightArm
+        m_MethodName: FrontRightArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -550,7 +550,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: BackLeftLeg
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -683,7 +683,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightArm
+        m_MethodName: BackLeftArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -816,7 +816,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: FrontHead
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1054,7 +1054,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: BackHead
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1115,7 +1115,7 @@ GameObject:
   - component: {fileID: 445653867}
   - component: {fileID: 445653866}
   m_Layer: 0
-  m_Name: Female Torso
+  m_Name: Male Torso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1187,7 +1187,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: MaleTorso
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1320,7 +1320,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: BackRightLeg
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1452,7 +1452,7 @@ RectTransform:
   m_GameObject: {fileID: 635563316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.95, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 372498083}
@@ -1460,7 +1460,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -261.80005, y: 93.99999}
+  m_AnchoredPosition: {x: -261.80005, y: 90}
   m_SizeDelta: {x: 503.4684, y: 1263.8904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &635563318
@@ -1483,7 +1483,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c56c114fd170807469492dc2a197c62b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ee8da20bbc8d4a34a95a8c81f643bbdb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1586,7 +1586,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: FrontRightLeg
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2141,7 +2141,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: FrontLeftLeg
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2274,7 +2274,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: BackSpine
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2407,7 +2407,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: BackRightArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

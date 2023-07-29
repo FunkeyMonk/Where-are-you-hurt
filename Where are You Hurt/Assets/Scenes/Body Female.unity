@@ -284,7 +284,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: FrontLeftArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -417,7 +417,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightArm
+        m_MethodName: FrontRightArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -550,7 +550,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: BackLeftLeg
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -683,7 +683,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightArm
+        m_MethodName: BackLeftArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -816,7 +816,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: FrontHead
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1054,7 +1054,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: BackHead
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1187,7 +1187,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: FemaleTorso
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1320,7 +1320,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: BackRightLeg
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1586,7 +1586,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: FrontRightLeg
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2141,7 +2141,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: FrontLeftLeg
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2274,7 +2274,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: BackSpine
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2407,7 +2407,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: LoadFrontRightHand
+        m_MethodName: BackRightArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
