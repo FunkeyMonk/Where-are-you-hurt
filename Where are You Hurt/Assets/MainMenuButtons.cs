@@ -20,8 +20,13 @@ public class MainMenuButtons : MonoBehaviour
         SceneManager.LoadScene("Main Menu");
     }
 
-    public void LoadFrontRightHand()
+    public void LoadFrontRightArm()
     {
-        SceneManager.LoadScene("Front Right Hand");
+        SceneManager.LoadScene("Front Right Arm");
+    }
+
+    public void LoadFrontLeftArm()
+    {
+        SceneManager.LoadScene("Front Left Arm");
     }
 }
