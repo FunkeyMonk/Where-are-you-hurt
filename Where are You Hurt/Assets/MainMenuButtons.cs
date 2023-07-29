@@ -14,4 +14,14 @@ public class MainMenuButtons : MonoBehaviour
     {
         SceneManager.LoadScene("Body Female");
     }
+
+    public void GoBackMenu()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
+
+    public void LoadFrontRightHand()
+    {
+        SceneManager.LoadScene("Front Right Hand");
+    }
 }
