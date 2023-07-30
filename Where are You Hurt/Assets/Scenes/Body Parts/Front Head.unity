@@ -290,9 +290,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: Neck
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -769,9 +769,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: Ears
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -943,9 +943,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: Mouth
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1076,9 +1076,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: Forehead
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2074,9 +2074,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: Neck
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2505,9 +2505,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: Ears
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2951,9 +2951,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: Eyes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3061,8 +3061,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eyes: {fileID: 21300000, guid: ed629d6285a2b4e42a4a9380c897d280, type: 3}
-  forehead: {fileID: 0}
-  ears: {fileID: 0}
+  forehead: {fileID: 21300000, guid: ee91da5058127e64ea512bc94f3ad4d7, type: 3}
+  ears: {fileID: 21300000, guid: d6e0ac2682bd14a478763248b2b5866a, type: 3}
+  nose: {fileID: 21300000, guid: bb87859a33fdd4a4fbfcb66859c7a758, type: 3}
+  mouth: {fileID: 21300000, guid: 72eae3f07d7dfdd4fabd09ae64c9fa93, type: 3}
+  neck: {fileID: 21300000, guid: b3c0d92e81a82384aa09f5dfb13759fe, type: 3}
   bodyPartText: {fileID: 1040344997}
   image: {fileID: 427565944}
   sliderThingy: {fileID: 28216393}
@@ -3149,9 +3152,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: Nose
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4091,9 +4094,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: Neck
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
