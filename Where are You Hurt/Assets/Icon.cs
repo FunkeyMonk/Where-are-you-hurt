@@ -8,15 +8,15 @@ using TMPro;
 public class Icon : MonoBehaviour
 {
     public Slider slider;
-    public TMP_Text pain;
+    public TMP_Text Pain;
     public TMP_Text bodyPart;
     public string painLevel;
     private void Start()
     {
-        pain = FindObjectOfType<TextMeshProUGUI>();
+        //Pain = FindObjectOfType<TextMeshProUGUI>();
     }
     public void Confirm()
     {
-        pain.text = slider.value.ToString();
+        Pain.text = slider.value.ToString();
     }
 }

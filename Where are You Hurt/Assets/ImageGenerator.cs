@@ -13,6 +13,7 @@ public class ImageGenerator : MonoBehaviour
     public TMP_Text bodyPartText;
 
     public GameObject image;
+    public GameObject sliderThingy;
 
     private void Start()
     {
@@ -20,6 +21,7 @@ public class ImageGenerator : MonoBehaviour
     }
     public void Eyes()
     {
+        sliderThingy.SetActive(true);
         image.GetComponent<Image>().sprite = eyes;
         bodyPartText.text = "Eyes";
     }
