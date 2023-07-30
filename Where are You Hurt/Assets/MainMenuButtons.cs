@@ -53,39 +53,23 @@ public class MainMenuButtons : MonoBehaviour
     */
 
     //Front and Back Arms
-    public void FrontRightArm()
+    public void RightArm()
     {
-        SceneManager.LoadScene("Front Right Arm");
+        SceneManager.LoadScene("Right Arm");
     }
-    public void FrontLeftArm()
+    public void LeftArm()
     {
-        SceneManager.LoadScene("Front Left Arm");
-    }
-    public void BackLeftArm()
-    {
-        SceneManager.LoadScene("Back Left Arm");
-    }
-    public void BackRightArm()
-    {
-        SceneManager.LoadScene("Back Right Arm");
+        SceneManager.LoadScene("Left Arm");
     }
 
     //Front and Back Legs
-    public void FrontRightLeg()
+    public void RightLeg()
     {
-        SceneManager.LoadScene("Front Right Leg");
+        SceneManager.LoadScene("Right Leg");
     }
-    public void FrontLeftLeg()
+    public void LeftLeg()
     {
-        SceneManager.LoadScene("Front Left Leg");
-    }
-    public void BackLeftLeg()
-    {
-        SceneManager.LoadScene("Back Left Leg");
-    }
-    public void BackRightLeg()
-    {
-        SceneManager.LoadScene("Back Right Leg");
+        SceneManager.LoadScene("Left Leg");
     }
 
     //Others
@@ -97,16 +81,20 @@ public class MainMenuButtons : MonoBehaviour
     {
         SceneManager.LoadScene("Back Head");
     }
-    public void FemaleTorso()
+    public void FemaleFrontTorso()
     {
-        SceneManager.LoadScene("Female Torso");
+        SceneManager.LoadScene("Female Front Torso");
     }
-    public void MaleTorso()
+    public void FemaleBackTorso()
     {
-        SceneManager.LoadScene("Male Torso");
+        SceneManager.LoadScene("Female Back Torso");
     }
-    public void BackSpine()
+    public void MaleFrontTorso()
     {
-        SceneManager.LoadScene("Back Spine");
+        SceneManager.LoadScene("Male Front Torso");
+    }
+    public void MaleBackTorso()
+    {
+        SceneManager.LoadScene("Male Back Torso");
     }
 }
