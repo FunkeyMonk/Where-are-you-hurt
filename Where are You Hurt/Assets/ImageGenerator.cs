@@ -185,5 +185,22 @@ public class ImageGenerator : MonoBehaviour
     }
 
     //----------------Back Head----------------------
-
+    public void BackHeadTop()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = backHeadTop;
+        bodyPartText.text = "Back Head";
+    }
+    public void BackHeadBottom()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = backHeadBottom;
+        bodyPartText.text = "Back Head";
+    }
+    public void BackNeck()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = backNeck;
+        bodyPartText.text = "Back Neck";
+    }
 }

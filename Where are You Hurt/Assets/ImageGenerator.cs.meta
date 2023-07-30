@@ -3,7 +3,59 @@ guid: 20c92f481ce802940938906e9c79da91
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - leftThumb: {instanceID: 0}
+  - leftIndex: {instanceID: 0}
+  - leftMiddle: {instanceID: 0}
+  - leftRing: {instanceID: 0}
+  - leftPinky: {instanceID: 0}
+  - leftUpperArm: {instanceID: 0}
+  - leftElbow: {instanceID: 0}
+  - leftForearm: {instanceID: 0}
+  - leftShoulder: {instanceID: 0}
+  - rightThumb: {instanceID: 0}
+  - rightIndex: {instanceID: 0}
+  - rightMiddle: {instanceID: 0}
+  - rightRing: {instanceID: 0}
+  - rightPinky: {instanceID: 0}
+  - rightUpperArm: {instanceID: 0}
+  - rightElbow: {instanceID: 0}
+  - rightForearm: {instanceID: 0}
+  - rightShoulder: {instanceID: 0}
+  - leftToes: {instanceID: 0}
+  - leftThigh: {instanceID: 0}
+  - leftKnee: {instanceID: 0}
+  - leftBehindKnee: {instanceID: 0}
+  - leftCalf: {instanceID: 0}
+  - leftAnkle: {instanceID: 0}
+  - rightToes: {instanceID: 0}
+  - rightThigh: {instanceID: 0}
+  - rightKnee: {instanceID: 0}
+  - rightBehindKnee: {instanceID: 0}
+  - rightCalf: {instanceID: 0}
+  - rightAnkle: {instanceID: 0}
+  - maleChest: {instanceID: 0}
+  - maleStomach: {instanceID: 0}
+  - maleCrotch: {instanceID: 0}
+  - maleUpperBack: {instanceID: 0}
+  - maleLowerBack: {instanceID: 0}
+  - femaleChest: {instanceID: 0}
+  - femaleStomach: {instanceID: 0}
+  - femaleCrotch: {instanceID: 0}
+  - femaleUpperBack: {instanceID: 0}
+  - femaleLowerBack: {instanceID: 0}
+  - eyes: {instanceID: 0}
+  - forehead: {instanceID: 0}
+  - ears: {instanceID: 0}
+  - nose: {instanceID: 0}
+  - mouth: {instanceID: 0}
+  - neck: {instanceID: 0}
+  - backHeadTop: {instanceID: 0}
+  - backHeadBottom: {instanceID: 0}
+  - backNeck: {instanceID: 0}
+  - bodyPartText: {instanceID: 0}
+  - image: {instanceID: 0}
+  - sliderThingy: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

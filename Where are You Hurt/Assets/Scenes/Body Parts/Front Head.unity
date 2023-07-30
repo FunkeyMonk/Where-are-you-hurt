@@ -3060,12 +3060,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20c92f481ce802940938906e9c79da91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftThumb: {fileID: 21300000, guid: 98a6bb9e08e393b4cb2acce96e7ee403, type: 3}
+  leftIndex: {fileID: 21300000, guid: 2461f29c5e159d74fbf5cc9d2fed0a2f, type: 3}
+  leftMiddle: {fileID: 21300000, guid: 0620d2c25d980804796fd5c048a774d4, type: 3}
+  leftRing: {fileID: 21300000, guid: 8e142b27521b8d142a79ec4bf6eff3eb, type: 3}
+  leftPinky: {fileID: 21300000, guid: b032395d9d2980f4e9d2f5800867a022, type: 3}
+  leftUpperArm: {fileID: 21300000, guid: ce175511f340d844da0a74be1ee50a14, type: 3}
+  leftElbow: {fileID: 21300000, guid: e171a9465ea39e14db5de2a146046165, type: 3}
+  leftForearm: {fileID: 21300000, guid: 71bb81461740d91498715d182cba48f0, type: 3}
+  leftShoulder: {fileID: 21300000, guid: 61d9eb00fa2bad745b35ac97530c6be2, type: 3}
+  rightThumb: {fileID: 21300000, guid: 3d6c09805a2278743a031f5fcb6c472c, type: 3}
+  rightIndex: {fileID: 21300000, guid: 84eab763804102f48bf17487afef8065, type: 3}
+  rightMiddle: {fileID: 21300000, guid: 26876fc98b2c3b6409d4d0dd800d2fcc, type: 3}
+  rightRing: {fileID: 21300000, guid: 6441f32bef8ca4c4a9ed0952e65850b5, type: 3}
+  rightPinky: {fileID: 21300000, guid: bcfd146d99172ec4ab3da09b28fbe64d, type: 3}
+  rightUpperArm: {fileID: 21300000, guid: c34b83f9dde2b4f4a89b14b1b929d5e0, type: 3}
+  rightElbow: {fileID: 21300000, guid: cf2f4247187bde4409e61b26132cb0c0, type: 3}
+  rightForearm: {fileID: 21300000, guid: 9e1ba174896b0994695642e65bc02b74, type: 3}
+  rightShoulder: {fileID: 21300000, guid: d37c1a2bb295afa4d801ca6ad44fe2ba, type: 3}
+  leftToes: {fileID: 21300000, guid: 257e7eee38a69764c9d73ed9c3bed57d, type: 3}
+  leftThigh: {fileID: 21300000, guid: 31e83f05f8b53fb41971508a27f392f8, type: 3}
+  leftKnee: {fileID: 21300000, guid: 9c6b94383e892034682884c38b66ceb7, type: 3}
+  leftBehindKnee: {fileID: 21300000, guid: ca0979d945b9bcd4ebec82894010a133, type: 3}
+  leftCalf: {fileID: 21300000, guid: 70bf91b2282cbbe458462f3501898992, type: 3}
+  leftAnkle: {fileID: 21300000, guid: 368a815dbf236ac4a8c67adfe83481d2, type: 3}
+  rightToes: {fileID: 21300000, guid: 824065f10baca3040b39b67d891e3ae9, type: 3}
+  rightThigh: {fileID: 21300000, guid: cac1fef630c44e34a8a11a632a2ad4f4, type: 3}
+  rightKnee: {fileID: 21300000, guid: 759803d0c2d626c4399ae736439818b7, type: 3}
+  rightBehindKnee: {fileID: 21300000, guid: 464b65b768855674c9896173dc42b07b, type: 3}
+  rightCalf: {fileID: 21300000, guid: adef18192728f5741840ac97cb29644a, type: 3}
+  rightAnkle: {fileID: 21300000, guid: 69ec6b99f4af3314cbccde66f9679bbb, type: 3}
+  maleChest: {fileID: 21300000, guid: f77625ce81b728f4c9ac3846985d5932, type: 3}
+  maleStomach: {fileID: 21300000, guid: 6ef7f857788aad34d918876701fef909, type: 3}
+  maleCrotch: {fileID: 21300000, guid: feeeec016a0a7ad4393fd3edb1ae4e71, type: 3}
+  maleUpperBack: {fileID: 21300000, guid: 371d593a34e33ca47a1798b45daca38a, type: 3}
+  maleLowerBack: {fileID: 21300000, guid: 193df93cbb35b8a45a012150be17fa1e, type: 3}
+  femaleChest: {fileID: 21300000, guid: 9e99f03cf2b014a4ca2908d980368c16, type: 3}
+  femaleStomach: {fileID: 21300000, guid: c68e09c96a5f7ff438934d437b598425, type: 3}
+  femaleCrotch: {fileID: 21300000, guid: 55501eb2fe3a40144b32395d3460cdb4, type: 3}
+  femaleUpperBack: {fileID: 21300000, guid: 9885844669e190f4f8bc13669ad6f4db, type: 3}
+  femaleLowerBack: {fileID: 21300000, guid: ac587049f8d65bb47972858845fdd5a6, type: 3}
   eyes: {fileID: 21300000, guid: ed629d6285a2b4e42a4a9380c897d280, type: 3}
   forehead: {fileID: 21300000, guid: ee91da5058127e64ea512bc94f3ad4d7, type: 3}
   ears: {fileID: 21300000, guid: d6e0ac2682bd14a478763248b2b5866a, type: 3}
   nose: {fileID: 21300000, guid: bb87859a33fdd4a4fbfcb66859c7a758, type: 3}
   mouth: {fileID: 21300000, guid: 72eae3f07d7dfdd4fabd09ae64c9fa93, type: 3}
   neck: {fileID: 21300000, guid: b3c0d92e81a82384aa09f5dfb13759fe, type: 3}
+  backHeadTop: {fileID: 21300000, guid: b0f93ab81f1201145a10186c022f7db5, type: 3}
+  backHeadBottom: {fileID: 21300000, guid: ae6ce99abdbd3ea4985cd82a35f83628, type: 3}
+  backNeck: {fileID: 21300000, guid: 21801e7e4ae13c1468f3ce87f2593d5a, type: 3}
   bodyPartText: {fileID: 1040344997}
   image: {fileID: 427565944}
   sliderThingy: {fileID: 28216393}
