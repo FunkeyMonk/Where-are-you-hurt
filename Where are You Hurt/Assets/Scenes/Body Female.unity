@@ -2778,5 +2778,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Icon 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3428296717019827545, guid: 9078ff3ad1dba9543b32e1bbe0601786, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9078ff3ad1dba9543b32e1bbe0601786, type: 3}

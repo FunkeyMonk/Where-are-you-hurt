@@ -1438,6 +1438,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332899219}
   m_CullTransparentMesh: 1
+--- !u!1 &427565944 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3428296717975307248, guid: 9078ff3ad1dba9543b32e1bbe0601786, type: 3}
+  m_PrefabInstance: {fileID: 1375489301}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &530277887
 GameObject:
   m_ObjectHideFlags: 0
@@ -1708,6 +1713,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 715360808}
   m_CullTransparentMesh: 1
+--- !u!114 &826119172 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3428296717261467943, guid: 9078ff3ad1dba9543b32e1bbe0601786, type: 3}
+  m_PrefabInstance: {fileID: 1375489301}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &954161865
 GameObject:
   m_ObjectHideFlags: 0
@@ -2052,6 +2068,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978453665}
   m_CullTransparentMesh: 1
+--- !u!114 &1040344997 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3428296717004912801, guid: 9078ff3ad1dba9543b32e1bbe0601786, type: 3}
+  m_PrefabInstance: {fileID: 1375489301}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1236460944
 GameObject:
   m_ObjectHideFlags: 0
@@ -2194,6 +2221,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1261067564}
+  - component: {fileID: 1261067565}
   m_Layer: 5
   m_Name: Main Buttons
   m_TagString: Untagged
@@ -2231,6 +2259,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1261067565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261067563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c92f481ce802940938906e9c79da91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eyes: {fileID: 21300000, guid: ed629d6285a2b4e42a4a9380c897d280, type: 3}
+  forehead: {fileID: 0}
+  ears: {fileID: 0}
+  bodyPartText: {fileID: 1040344997}
+  image: {fileID: 427565944}
 --- !u!1 &1277530648
 GameObject:
   m_ObjectHideFlags: 0
@@ -2589,6 +2634,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3428296717019827527, guid: 9078ff3ad1dba9543b32e1bbe0601786, type: 3}
+      propertyPath: pain
+      value: 
+      objectReference: {fileID: 826119172}
+    - target: {fileID: 3428296717019827527, guid: 9078ff3ad1dba9543b32e1bbe0601786, type: 3}
+      propertyPath: slider
+      value: 
+      objectReference: {fileID: 1817521197}
+    - target: {fileID: 3428296717019827527, guid: 9078ff3ad1dba9543b32e1bbe0601786, type: 3}
+      propertyPath: bodyPart
+      value: 
+      objectReference: {fileID: 1040344997}
     - target: {fileID: 3428296717019827545, guid: 9078ff3ad1dba9543b32e1bbe0601786, type: 3}
       propertyPath: m_Name
       value: Icon 1
@@ -3135,8 +3192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1817521197}
-  pain: {fileID: 0}
-  bodyPart: {fileID: 0}
+  pain: {fileID: 826119172}
+  bodyPart: {fileID: 1040344997}
   painLevel: 
 --- !u!1 &1701587672
 GameObject:
@@ -3411,7 +3468,7 @@ MonoBehaviour:
   m_MinValue: 1
   m_MaxValue: 10
   m_WholeNumbers: 1
-  m_Value: 10
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4390,13 +4447,13 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: Eyes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4503,6 +4560,10 @@ PrefabInstance:
       propertyPath: mainButtons
       value: 
       objectReference: {fileID: 1261067563}
+    - target: {fileID: 4217585755432212651, guid: c52d8fec825f631408c52755ec1e185a, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4217585755546429351, guid: c52d8fec825f631408c52755ec1e185a, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
