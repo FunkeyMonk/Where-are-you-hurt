@@ -220,7 +220,7 @@ GameObject:
   - component: {fileID: 37102791}
   - component: {fileID: 37102790}
   m_Layer: 5
-  m_Name: Neck
+  m_Name: Leftforearm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -233,18 +233,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 37102788}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.40503758, w: 0.9143001}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1261067564}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 47.787}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.9938, y: -266.90057}
-  m_SizeDelta: {x: 401.12, y: 86.7455}
+  m_AnchoredPosition: {x: 274.0251, y: -19.2009}
+  m_SizeDelta: {x: 417.5392, y: 220.2834}
   m_Pivot: {x: 0.49999973, y: 0.5}
 --- !u!114 &37102790
 MonoBehaviour:
@@ -290,9 +290,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: LeftForearm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -699,7 +699,7 @@ GameObject:
   - component: {fileID: 192698645}
   - component: {fileID: 192698644}
   m_Layer: 5
-  m_Name: Ear
+  m_Name: Leftring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -712,18 +712,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192698642}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.27175146, w: 0.9623675}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1261067564}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -31.537}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -262.50836, y: 78}
-  m_SizeDelta: {x: 80.2067, y: 220.8777}
+  m_AnchoredPosition: {x: 316.91272, y: 338.0628}
+  m_SizeDelta: {x: 64.8448, y: 151.7743}
   m_Pivot: {x: 0.49999973, y: 0.5}
 --- !u!114 &192698644
 MonoBehaviour:
@@ -769,9 +769,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: LeftRing
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -873,7 +873,7 @@ GameObject:
   - component: {fileID: 221854912}
   - component: {fileID: 221854911}
   m_Layer: 5
-  m_Name: Mouth
+  m_Name: Leftelbow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -896,8 +896,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.0933, y: -74.71448}
-  m_SizeDelta: {x: 176.9577, y: 84.5466}
+  m_AnchoredPosition: {x: 25.1948, y: -260.58}
+  m_SizeDelta: {x: 209.3595, y: 99.383}
   m_Pivot: {x: 0.49999973, y: 0.5}
 --- !u!114 &221854911
 MonoBehaviour:
@@ -943,9 +943,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: LeftElbow
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1006,7 +1006,7 @@ GameObject:
   - component: {fileID: 236680171}
   - component: {fileID: 236680170}
   m_Layer: 5
-  m_Name: Forehead
+  m_Name: Leftupperarm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1019,18 +1019,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236680168}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.3446555, w: 0.9387293}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1261067564}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -40.322}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.9937, y: 333}
-  m_SizeDelta: {x: 500.1942, y: 220.8777}
+  m_AnchoredPosition: {x: -180.113, y: -22.2386}
+  m_SizeDelta: {x: 388.9106, y: 195.4576}
   m_Pivot: {x: 0.49999973, y: 0.5}
 --- !u!114 &236680170
 MonoBehaviour:
@@ -1076,9 +1076,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: LeftUpperArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2004,7 +2004,7 @@ GameObject:
   - component: {fileID: 715360811}
   - component: {fileID: 715360810}
   m_Layer: 5
-  m_Name: Neck (1)
+  m_Name: Leftshoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2027,8 +2027,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -153, y: -180.16}
-  m_SizeDelta: {x: 95.4745, y: 86.745}
+  m_AnchoredPosition: {x: -304, y: 264}
+  m_SizeDelta: {x: 405.3168, y: 214.3271}
   m_Pivot: {x: 0.50000036, y: 0.5}
 --- !u!114 &715360810
 MonoBehaviour:
@@ -2074,9 +2074,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: LeftShoulder
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2435,7 +2435,7 @@ GameObject:
   - component: {fileID: 954161868}
   - component: {fileID: 954161867}
   m_Layer: 5
-  m_Name: Ear (1)
+  m_Name: Leftpinky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2448,18 +2448,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954161865}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.3269569, w: 0.9450393}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1261067564}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -38.168}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 283.21, y: 78}
-  m_SizeDelta: {x: 80.2067, y: 220.8777}
+  m_AnchoredPosition: {x: 385, y: 313}
+  m_SizeDelta: {x: 74.1313, y: 143.9234}
   m_Pivot: {x: 0.49999973, y: 0.5}
 --- !u!114 &954161867
 MonoBehaviour:
@@ -2505,9 +2505,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: LeftPinky
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2881,7 +2881,7 @@ GameObject:
   - component: {fileID: 1236460947}
   - component: {fileID: 1236460946}
   m_Layer: 5
-  m_Name: Eye (1)
+  m_Name: Leftindex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2894,18 +2894,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1236460944}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.33690092, w: 0.9415401}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1261067564}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -39.376}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 133.69, y: 140.59119}
-  m_SizeDelta: {x: 168.7956, y: 144.3422}
+  m_AnchoredPosition: {x: 217, y: 398}
+  m_SizeDelta: {x: 59.4395, y: 144.3422}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236460946
 MonoBehaviour:
@@ -2951,9 +2951,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: LeftIndex
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3039,7 +3039,6 @@ RectTransform:
   - {fileID: 221854910}
   - {fileID: 37102789}
   - {fileID: 715360809}
-  - {fileID: 1805457294}
   m_Father: {fileID: 2104564548}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3060,9 +3059,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20c92f481ce802940938906e9c79da91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftThumb: {fileID: 21300000, guid: 98a6bb9e08e393b4cb2acce96e7ee403, type: 3}
+  leftIndex: {fileID: 21300000, guid: 2461f29c5e159d74fbf5cc9d2fed0a2f, type: 3}
+  leftMiddle: {fileID: 21300000, guid: 0620d2c25d980804796fd5c048a774d4, type: 3}
+  leftRing: {fileID: 21300000, guid: 8e142b27521b8d142a79ec4bf6eff3eb, type: 3}
+  leftPinky: {fileID: 21300000, guid: b032395d9d2980f4e9d2f5800867a022, type: 3}
+  leftUpperArm: {fileID: 21300000, guid: ce175511f340d844da0a74be1ee50a14, type: 3}
+  leftElbow: {fileID: 21300000, guid: e171a9465ea39e14db5de2a146046165, type: 3}
+  leftForearm: {fileID: 21300000, guid: 71bb81461740d91498715d182cba48f0, type: 3}
+  leftShoulder: {fileID: 21300000, guid: 61d9eb00fa2bad745b35ac97530c6be2, type: 3}
+  rightThumb: {fileID: 0}
+  rightIndex: {fileID: 0}
+  rightMiddle: {fileID: 0}
+  rightRing: {fileID: 0}
+  rightPinky: {fileID: 0}
+  rightUpperArm: {fileID: 0}
+  rightElbow: {fileID: 0}
+  rightForearm: {fileID: 0}
+  rightShoulder: {fileID: 0}
+  leftToes: {fileID: 0}
+  leftThigh: {fileID: 0}
+  leftKnee: {fileID: 0}
+  leftBehindKnee: {fileID: 0}
+  leftCalf: {fileID: 0}
+  leftAnkle: {fileID: 0}
+  rightToes: {fileID: 0}
+  rightThigh: {fileID: 0}
+  rightKnee: {fileID: 0}
+  rightBehindKnee: {fileID: 0}
+  rightCalf: {fileID: 0}
+  rightAnkle: {fileID: 0}
+  maleChest: {fileID: 0}
+  maleStomach: {fileID: 0}
+  maleCrotch: {fileID: 0}
+  maleUpperBack: {fileID: 0}
+  maleLowerBack: {fileID: 0}
+  femaleChest: {fileID: 0}
+  femaleStomach: {fileID: 0}
+  femaleCrotch: {fileID: 0}
+  femaleUpperBack: {fileID: 0}
+  femaleLowerBack: {fileID: 0}
   eyes: {fileID: 21300000, guid: ed629d6285a2b4e42a4a9380c897d280, type: 3}
   forehead: {fileID: 0}
   ears: {fileID: 0}
+  nose: {fileID: 0}
+  mouth: {fileID: 0}
+  neck: {fileID: 0}
+  backHeadTop: {fileID: 0}
+  backHeadBottom: {fileID: 0}
+  backNeck: {fileID: 0}
   bodyPartText: {fileID: 1040344997}
   image: {fileID: 427565944}
   sliderThingy: {fileID: 28216393}
@@ -3079,7 +3124,7 @@ GameObject:
   - component: {fileID: 1277530651}
   - component: {fileID: 1277530650}
   m_Layer: 5
-  m_Name: Nose
+  m_Name: Leftmiddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3092,18 +3137,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277530648}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.22715992, w: 0.9738575}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1261067564}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -26.26}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.5967, y: 88.449}
-  m_SizeDelta: {x: 113.19, y: 176.9}
+  m_AnchoredPosition: {x: 263, y: 363}
+  m_SizeDelta: {x: 66.6125, y: 160.6991}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1277530650
 MonoBehaviour:
@@ -3149,9 +3194,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: LeftMiddle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4008,139 +4053,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782602231}
   m_CullTransparentMesh: 1
---- !u!1 &1805457293
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1805457294}
-  - component: {fileID: 1805457297}
-  - component: {fileID: 1805457296}
-  - component: {fileID: 1805457295}
-  m_Layer: 5
-  m_Name: Neck (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1805457294
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805457293}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1261067564}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 161.82, y: -191}
-  m_SizeDelta: {x: 95.4745, y: 86.745}
-  m_Pivot: {x: 0.50000036, y: 0.5}
---- !u!114 &1805457295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805457293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1805457296}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1805457296
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805457293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1805457297
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1805457293}
-  m_CullTransparentMesh: 1
 --- !u!1 &1946819620
 GameObject:
   m_ObjectHideFlags: 0
@@ -4431,7 +4343,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27, y: 112}
+  m_AnchoredPosition: {x: 29, y: 74}
   m_SizeDelta: {x: 1064.1152, y: 881.6594}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2095879293
@@ -4454,7 +4366,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c4968cc6f7b654b49993acc4106ea861, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5e97f2170519b7429b80cbdf31f45ac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4605,7 +4517,7 @@ GameObject:
   - component: {fileID: 2132075067}
   - component: {fileID: 2132075066}
   m_Layer: 5
-  m_Name: Eye
+  m_Name: Leftthumb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4618,18 +4530,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2132075064}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.21931511, w: 0.9756541}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1261067564}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -25.338}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -127.08838, y: 140.59119}
-  m_SizeDelta: {x: 168.7956, y: 144.3422}
+  m_AnchoredPosition: {x: 243, y: 264}
+  m_SizeDelta: {x: 199.2145, y: 59.534}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2132075066
 MonoBehaviour:
@@ -4689,7 +4601,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1261067565}
         m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
-        m_MethodName: Eyes
+        m_MethodName: LeftThumb
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

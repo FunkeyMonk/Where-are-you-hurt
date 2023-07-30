@@ -3060,9 +3060,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20c92f481ce802940938906e9c79da91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  leftThumb: {fileID: 0}
+  leftIndex: {fileID: 0}
+  leftMiddle: {fileID: 0}
+  leftRing: {fileID: 0}
+  leftPinky: {fileID: 0}
+  leftUpperArm: {fileID: 0}
+  leftElbow: {fileID: 0}
+  leftForearm: {fileID: 0}
+  leftShoulder: {fileID: 0}
+  rightThumb: {fileID: 0}
+  rightIndex: {fileID: 0}
+  rightMiddle: {fileID: 0}
+  rightRing: {fileID: 0}
+  rightPinky: {fileID: 0}
+  rightUpperArm: {fileID: 0}
+  rightElbow: {fileID: 0}
+  rightForearm: {fileID: 0}
+  rightShoulder: {fileID: 0}
+  leftToes: {fileID: 0}
+  leftThigh: {fileID: 0}
+  leftKnee: {fileID: 0}
+  leftBehindKnee: {fileID: 0}
+  leftCalf: {fileID: 0}
+  leftAnkle: {fileID: 0}
+  rightToes: {fileID: 0}
+  rightThigh: {fileID: 0}
+  rightKnee: {fileID: 0}
+  rightBehindKnee: {fileID: 0}
+  rightCalf: {fileID: 0}
+  rightAnkle: {fileID: 0}
+  maleChest: {fileID: 0}
+  maleStomach: {fileID: 0}
+  maleCrotch: {fileID: 0}
+  maleUpperBack: {fileID: 0}
+  maleLowerBack: {fileID: 0}
+  femaleChest: {fileID: 0}
+  femaleStomach: {fileID: 0}
+  femaleCrotch: {fileID: 0}
+  femaleUpperBack: {fileID: 0}
+  femaleLowerBack: {fileID: 0}
   eyes: {fileID: 21300000, guid: ed629d6285a2b4e42a4a9380c897d280, type: 3}
   forehead: {fileID: 0}
   ears: {fileID: 0}
+  nose: {fileID: 0}
+  mouth: {fileID: 0}
+  neck: {fileID: 0}
+  backHeadTop: {fileID: 0}
+  backHeadBottom: {fileID: 0}
+  backNeck: {fileID: 0}
   bodyPartText: {fileID: 1040344997}
   image: {fileID: 427565944}
   sliderThingy: {fileID: 28216393}
@@ -4431,8 +4477,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27, y: 112}
-  m_SizeDelta: {x: 1064.1152, y: 881.6594}
+  m_AnchoredPosition: {x: -14, y: 66}
+  m_SizeDelta: {x: 357.67, y: 801.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2095879293
 MonoBehaviour:
@@ -4454,7 +4500,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c4968cc6f7b654b49993acc4106ea861, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aab4eef3bf1b9334abc4edee46dada11, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

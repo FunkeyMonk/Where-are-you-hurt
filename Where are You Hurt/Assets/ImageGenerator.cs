@@ -80,59 +80,112 @@ public class ImageGenerator : MonoBehaviour
     {
         sliderThingy.SetActive(true);
         image.GetComponent<Image>().sprite = leftThumb;
-        bodyPartText.text = "Left Thumb";
+        bodyPartText.text = "Thumb";
     }
     public void LeftIndex()
     {
         sliderThingy.SetActive(true);
         image.GetComponent<Image>().sprite = leftIndex;
-        bodyPartText.text = "Left Index";
+        bodyPartText.text = "Index";
     }
     public void LeftMiddle()
     {
         sliderThingy.SetActive(true);
         image.GetComponent<Image>().sprite = leftMiddle;
-        bodyPartText.text = "Left Middle";
+        bodyPartText.text = "Middle";
     }
     public void LeftRing()
     {
         sliderThingy.SetActive(true);
         image.GetComponent<Image>().sprite = leftRing;
-        bodyPartText.text = "Left Ring";
+        bodyPartText.text = "Ring";
     }
     public void LeftPinky()
     {
         sliderThingy.SetActive(true);
         image.GetComponent<Image>().sprite = leftPinky;
-        bodyPartText.text = "Left Pinky";
+        bodyPartText.text = "Pinky";
     }
     public void LeftUpperArm()
     {
         sliderThingy.SetActive(true);
         image.GetComponent<Image>().sprite = leftUpperArm;
-        bodyPartText.text = "Left Upper Arm";
+        bodyPartText.text = "Upper Arm";
     }
     public void LeftElbow()
     {
         sliderThingy.SetActive(true);
         image.GetComponent<Image>().sprite = leftElbow;
-        bodyPartText.text = "Left Elbow";
+        bodyPartText.text = "Elbow";
     }
     public void LeftForearm()
     {
         sliderThingy.SetActive(true);
         image.GetComponent<Image>().sprite = leftForearm;
-        bodyPartText.text = "Left Forearm";
+        bodyPartText.text = "Forearm";
     }
     public void LeftShoulder()
     {
         sliderThingy.SetActive(true);
         image.GetComponent<Image>().sprite = leftShoulder;
-        bodyPartText.text = "Left Shoulder";
+        bodyPartText.text = "Shoulder";
     }
 
     //----------------Right Arm----------------------
-
+    public void RightThumb()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightThumb;
+        bodyPartText.text = "Thumb";
+    }
+    public void RightIndex()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightIndex;
+        bodyPartText.text = "Index";
+    }
+    public void RightMiddle()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightMiddle;
+        bodyPartText.text = "Middle";
+    }
+    public void RightRing()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightRing;
+        bodyPartText.text = "Ring";
+    }
+    public void RightPinky()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightPinky;
+        bodyPartText.text = "Pinky";
+    }
+    public void RightUpperArm()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightUpperArm;
+        bodyPartText.text = "Upper Arm";
+    }
+    public void RightElbow()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightElbow;
+        bodyPartText.text = "Elbow";
+    }
+    public void RightForearm()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightForearm;
+        bodyPartText.text = "Forearm";
+    }
+    public void RightShoulder()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightShoulder;
+        bodyPartText.text = "Shoulder";
+    }
     //----------------Left Leg----------------------
 
     //----------------Right Leg----------------------
