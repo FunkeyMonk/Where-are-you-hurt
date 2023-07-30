@@ -2,12 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class MainMenuButtons : MonoBehaviour
 {
+    static int binaryGender = 0;
+    static Icon icon;
+    static GetSliderInput sliderInput;
+    public TMP_Text pain;
+
+    private void Start()
+    {
+        
+    }
     public void LoadMaleBody()
     {
         SceneManager.LoadScene("Body Male");
+        binaryGender = 1;
     }
 
     public void LoadFemaleBody()
@@ -19,6 +31,26 @@ public class MainMenuButtons : MonoBehaviour
     {
         SceneManager.LoadScene("Main Menu");
     }
+
+    public void GoBackBody()
+    {
+        if (binaryGender == 0)
+        {
+            SceneManager.LoadScene("Body Female");
+        }
+        if (binaryGender == 1)
+        {
+            SceneManager.LoadScene("Body Male");
+            binaryGender = 0;
+        }
+    }
+    /*
+    public void Confirm()
+    {
+        pain.text = "2";
+        SceneManager.LoadScene("Body Female");
+    }
+    */
 
     //Front and Back Arms
     public void FrontRightArm()
