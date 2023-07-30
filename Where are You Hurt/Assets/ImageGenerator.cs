@@ -138,13 +138,69 @@ public class ImageGenerator : MonoBehaviour
     //----------------Right Leg----------------------
 
     //----------------Male Torso----------------------
-
+    public void MaleChest()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = maleChest;
+        bodyPartText.text = "Chest";
+    }
+    public void MaleStomach()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = maleStomach;
+        bodyPartText.text = "Stomach";
+    }
+    public void MaleCrotch()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = maleCrotch;
+        bodyPartText.text = "Hips";
+    }
     //----------------Male Torso Back----------------------
-
+    public void MaleUpperBack()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = maleUpperBack;
+        bodyPartText.text = "Back";
+    }
+    public void MaleLowerBack()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = maleLowerBack;
+        bodyPartText.text = "Back";
+    }
     //----------------Female Torso----------------------
-
+    public void FemaleChest()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = femaleChest;
+        bodyPartText.text = "Chest";
+    }
+    public void FemaleStomach()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = femaleStomach;
+        bodyPartText.text = "Stomach";
+    }
+    public void FemaleCrotch()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = femaleCrotch;
+        bodyPartText.text = "Hips";
+    }
     //----------------Female Torso Back----------------------
-
+    public void FemaleUpperBack()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = femaleUpperBack;
+        bodyPartText.text = "Back";
+    }
+    public void FemaleLowerBack()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = femaleLowerBack;
+        bodyPartText.text = "Back";
+    }
 
     //----------------Front Head----------------------
     public void Eyes()

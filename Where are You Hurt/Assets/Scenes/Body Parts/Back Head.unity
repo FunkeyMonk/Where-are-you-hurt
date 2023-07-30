@@ -566,7 +566,7 @@ GameObject:
   - component: {fileID: 192698645}
   - component: {fileID: 192698644}
   m_Layer: 5
-  m_Name: backneck
+  m_Name: Backneck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -589,8 +589,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -262.50836, y: 78}
-  m_SizeDelta: {x: 80.2067, y: 220.8777}
+  m_AnchoredPosition: {x: 1.9424, y: -222.9015}
+  m_SizeDelta: {x: 448.695, y: 191.9416}
   m_Pivot: {x: 0.49999973, y: 0.5}
 --- !u!114 &192698644
 MonoBehaviour:
@@ -636,9 +636,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: BackNeck
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2239,8 +2239,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.141, y: 302.076}
-  m_SizeDelta: {x: 522.2351, y: 272.759}
+  m_AnchoredPosition: {x: 2.8048007, y: 270.50928}
+  m_SizeDelta: {x: 530.1267, y: 335.8924}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1236460946
 MonoBehaviour:
@@ -2434,9 +2434,9 @@ MonoBehaviour:
   nose: {fileID: 0}
   mouth: {fileID: 0}
   neck: {fileID: 0}
-  backHeadTop: {fileID: 0}
-  backHeadBottom: {fileID: 0}
-  backNeck: {fileID: 0}
+  backHeadTop: {fileID: 21300000, guid: b0f93ab81f1201145a10186c022f7db5, type: 3}
+  backHeadBottom: {fileID: 21300000, guid: ae6ce99abdbd3ea4985cd82a35f83628, type: 3}
+  backNeck: {fileID: 21300000, guid: 21801e7e4ae13c1468f3ce87f2593d5a, type: 3}
   bodyPartText: {fileID: 1040344997}
   image: {fileID: 427565944}
   sliderThingy: {fileID: 28216393}
@@ -2453,7 +2453,7 @@ GameObject:
   - component: {fileID: 1277530651}
   - component: {fileID: 1277530650}
   m_Layer: 5
-  m_Name: Backheadback
+  m_Name: Backheadbottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2476,8 +2476,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.5967, y: 88.449}
-  m_SizeDelta: {x: 113.19, y: 176.9}
+  m_AnchoredPosition: {x: 13.7777, y: -2.6444}
+  m_SizeDelta: {x: 472.3696, y: 210.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1277530650
 MonoBehaviour:
@@ -2523,9 +2523,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: SpawnSlider, Assembly-CSharp
-        m_MethodName: spawnSlider
+      - m_Target: {fileID: 1261067565}
+        m_TargetAssemblyTypeName: ImageGenerator, Assembly-CSharp
+        m_MethodName: BackHeadBottom
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
