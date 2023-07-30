@@ -187,9 +187,79 @@ public class ImageGenerator : MonoBehaviour
         bodyPartText.text = "Shoulder";
     }
     //----------------Left Leg----------------------
-
+    public void LeftThigh()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = leftThigh;
+        bodyPartText.text = "Thigh";
+    }
+    public void LeftKnee()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = leftKnee;
+        bodyPartText.text = "Knee";
+    }
+    public void LeftBehindKnee()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = leftBehindKnee;
+        bodyPartText.text = "Knee";
+    }
+    public void LeftCalf()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = leftCalf;
+        bodyPartText.text = "Calf";
+    }
+    public void LeftAnkle()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = leftAnkle;
+        bodyPartText.text = "Ankle";
+    }
+    public void LeftToes()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = leftToes;
+        bodyPartText.text = "Toes";
+    }
     //----------------Right Leg----------------------
-
+    public void RightThigh()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightThigh;
+        bodyPartText.text = "Thigh";
+    }
+    public void RightKnee()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightKnee;
+        bodyPartText.text = "Knee";
+    }
+    public void RightBehindKnee()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightBehindKnee;
+        bodyPartText.text = "Knee";
+    }
+    public void RightCalf()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightCalf;
+        bodyPartText.text = "Calf";
+    }
+    public void RightAnkle()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightAnkle;
+        bodyPartText.text = "Ankle";
+    }
+    public void RightToes()
+    {
+        sliderThingy.SetActive(true);
+        image.GetComponent<Image>().sprite = rightToes;
+        bodyPartText.text = "Toes";
+    }
     //----------------Male Torso----------------------
     public void MaleChest()
     {
