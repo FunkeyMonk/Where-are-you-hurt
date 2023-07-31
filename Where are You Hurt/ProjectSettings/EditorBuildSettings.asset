@@ -8,13 +8,43 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Body Male.unity
-    guid: 8a8a70a9dbc6d2b438d60be9d516f017
+    guid: 83cab2baa30b032489b93be21e5d479d
   - enabled: 1
     path: Assets/Scenes/Body Female.unity
     guid: 603f75cfb88365c4cad697958b677d3a
   - enabled: 1
     path: Assets/Scenes/Body Parts/Front Head.unity
     guid: 56cdb1f372ca87046bcf2c4ccd9e6890
+  - enabled: 1
+    path: Assets/Scenes/Body Parts/Back Head.unity
+    guid: 9826df9bd5e56ff44873b1131af940af
+  - enabled: 1
+    path: Assets/Scenes/Body Parts/Female Back Torso.unity
+    guid: 45feec385d91e5a419de305013101ce7
+  - enabled: 1
+    path: Assets/Scenes/Body Parts/Female Front Torso.unity
+    guid: c09f1b366330b9b4390cd61dc5f4d9a8
+  - enabled: 1
+    path: Assets/Scenes/Body Parts/Left Arm.unity
+    guid: 5a59d47a6348cb244b86c07c1ebd57b3
+  - enabled: 1
+    path: Assets/Scenes/Body Parts/Left Leg.unity
+    guid: 6f388f309fef7bc48894b410eb885226
+  - enabled: 1
+    path: Assets/Scenes/Body Parts/Male Back Torso.unity
+    guid: 4fbb2daae2ee14d42afe5dbd5102afa6
+  - enabled: 1
+    path: Assets/Scenes/Body Parts/Male Front Torso.unity
+    guid: 06ae94fa59e74744d8ad2ae74d78536c
+  - enabled: 1
+    path: Assets/Scenes/Body Parts/Right Arm.unity
+    guid: 6fd5fb38c867e594cb520df9be4765d9
+  - enabled: 1
+    path: Assets/Scenes/Body Parts/Right Leg.unity
+    guid: 156ef233ae005b542bc985dc555e19ab
   m_configObjects: {}

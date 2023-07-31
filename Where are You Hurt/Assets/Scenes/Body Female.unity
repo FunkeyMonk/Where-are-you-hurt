@@ -284,7 +284,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: FrontLeftArm
+        m_MethodName: LeftArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -417,7 +417,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: FrontRightArm
+        m_MethodName: RightArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -550,7 +550,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: BackLeftLeg
+        m_MethodName: LeftLeg
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -683,7 +683,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: BackLeftArm
+        m_MethodName: LeftArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -731,6 +731,108 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 339598087}
   m_CullTransparentMesh: 1
+--- !u!1001 &370634047
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 372498083}
+    m_Modifications:
+    - target: {fileID: 7617011822679317807, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_Name
+      value: Click Symbol
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+--- !u!224 &370634048 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8523768614904012534, guid: 23bb8b9df5e898047a95aba901a71fba, type: 3}
+  m_PrefabInstance: {fileID: 370634047}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &371038161
 GameObject:
   m_ObjectHideFlags: 0
@@ -962,6 +1064,7 @@ RectTransform:
   - {fileID: 604989015}
   - {fileID: 1209292141}
   - {fileID: 990321264}
+  - {fileID: 370634048}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1188,7 +1291,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: FemaleTorso
+        m_MethodName: FemaleFrontTorso
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1321,7 +1424,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: BackRightLeg
+        m_MethodName: RightLeg
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1599,7 +1702,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: FrontRightLeg
+        m_MethodName: RightLeg
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2159,7 +2262,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: FrontLeftLeg
+        m_MethodName: LeftLeg
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2292,7 +2395,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: BackSpine
+        m_MethodName: FemaleBackTorso
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2425,7 +2528,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 604989016}
         m_TargetAssemblyTypeName: MainMenuButtons, Assembly-CSharp
-        m_MethodName: BackRightArm
+        m_MethodName: RightArm
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
