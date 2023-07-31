@@ -25,6 +25,7 @@ public class MainMenuButtons : MonoBehaviour
     public void LoadFemaleBody()
     {
         SceneManager.LoadScene("Body Female");
+        binaryGender = 0;
     }
 
     public void GoBackMenu()
@@ -41,7 +42,6 @@ public class MainMenuButtons : MonoBehaviour
         if (binaryGender == 1)
         {
             SceneManager.LoadScene("Body Male");
-            binaryGender = 0;
         }
     }
     /*
