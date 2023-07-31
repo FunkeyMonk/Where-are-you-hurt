@@ -6,4 +6,5 @@ This Unity tool is a prototype idea for a way to help healthcare workers, especi
 **Make sure to play in fullscreen**
 https://jflem.itch.io/where-are-you-hurt
 
+# Credits
 Created by Jordan Fleming and Joshua Chan
